@@ -1,9 +1,9 @@
-= Fonctionnalité attendu par le client
+= Fonctionnalités attendues par le client
 
-== Obtenir un affichage graphique des données fourni
+== Obtenir un affichage graphique des données fournies
 
-* Températures de la bière
-* Températures ambiantes
+* Température de la bière
+* Température ambiante
 * Volume de bière, pourcentage de la quantité
 * Nombre de verres restants
 * Puissance consommée
@@ -12,9 +12,12 @@
 == Options de gestion de l'outil
 
 * Notice de l'outil
+
 * Manuel de service
-* Maintenance préventive
-    * plusieurs documents pdf
+
+- Maintenance préventive
+    - plusieurs documents pdf
+    
 * Maintenance Curative
-    * plusieurs documents pdf
+    - plusieurs documents pdf
   
