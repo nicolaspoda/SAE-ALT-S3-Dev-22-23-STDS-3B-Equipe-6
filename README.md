@@ -15,7 +15,7 @@ Rôle de chaque membre de l'équipe :
 
 ## Contexte du projet
 
-  Le client du projet, M. Boulle, demande l’amélioration d’une tireuse à bière Philips PerfectDraft. Dans une approche IOT/industrie 4.0, il souhaite une machine connectée qui envoie des données de température, de niveau de bière et de puissance électrique à l’utilisateur. Ces données doivent pouvoir être lues sur une application web ou un site web disponible sur téléphone portable, et ensuite sur ordinateur. Il est également demandé la création de plans et de gammes de maintenance, qui seront accessibles depuis l’application.
+  Le client du projet, M. Boulle, demande l’amélioration d’une tireuse à bière Philips PerfectDraft. Dans une approche IOT/industrie 4.0, il souhaite une machine connectée qui envoie des données de température, de niveau de bière et de puissance électrique à l’utilisateur. Ces données doivent pouvoir être lues sur une application web ou un site web disponible sur téléphone portable, et ensuite sur ordinateur. C'est pourquoi, notre client client, six étudiants en GIM, nous ont contacté afin que nous réalisons ce site web dont le but est de récupérer les données collectées et qui sont transmisses grâce à un bus MQTT. Il est également demandé la création de plans et de gammes de maintenance, qui seront accessibles depuis l’application.
   
 ## Langages et outils utilisés
 
@@ -33,6 +33,8 @@ Rôle de chaque membre de l'équipe :
 - Système de gestion de bases de données
 
   - Oracle
+  - timescaleDB
+  - phpmyadmin
   
   
 ## Les liens 
