@@ -4,7 +4,7 @@ SAE DevApp Alt Groupe 3B6
 
 # Equipe
 
-Rôle dans l'équipe :
+Rôle de chaque membre de l'équipe :
 
 * Nicolas Poda : SCRUM Master
 * Elvis Pichou : Développeur
