@@ -8,8 +8,8 @@ Rôle dans l'équipe :
 
 * Nicolas Poda : SCRUM Master
 * Elvis Pichou : Développeur
-* Nicolas Sacilotto : Développeur
-* Olivier Recher : Product Owner
+* Nicolas Sacilotto : Product Owner
+* Olivier Recher : Développeur
 
 # Présentation du projet
 
