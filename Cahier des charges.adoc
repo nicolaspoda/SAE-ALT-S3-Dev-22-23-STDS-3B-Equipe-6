@@ -1,11 +1,12 @@
-= Cahier des charges
+= Cahier des charges du projet "Machine thermodynamique déployable en soirée"
 
-Projet "Machine thermodynamique déployable en soirée"
+:toc: 
 
-* Recueil de données (comment les données arrivent aux infos; MQTT; topics; topologie réseau)
-* Critères de pannes et messages 
-* Partie graphique (présentation avec l'appli)
-* Documents à insérer
-* Livrables demandés
-** description code
-** code en libre accès
+= Recueil de données (comment les données arrivent aux infos; MQTT; topics; topologie réseau)=
+= Critères de pannes et messages 
+= Partie graphique (présentation avec l'appli)
+= Documents à insérer
+= Livrables demandés
+== description code
+== code en libre accès
+
