@@ -1,0 +1,20 @@
+= Fonctionnalité attendu par le client
+
+== Obtenir un affichage graphique des données fourni
+
+* Températures de la bière
+* Températures ambiantes
+* Volume de bière, pourcentage de la quantité
+* Nombre de verres restants
+* Puissance consommée
+* Affichage en cas de problèmes sur la tireuse
+
+== Options de gestion de l'outil
+
+* Notice de l'outil
+* Manuel de service
+* Maintenance préventive
+    * plusieurs documents pdf
+* Maintenance Curative
+    * plusieurs documents pdf
+  
