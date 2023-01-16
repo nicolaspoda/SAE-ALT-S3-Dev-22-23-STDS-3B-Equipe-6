@@ -17,6 +17,10 @@ Rôle dans l'équipe :
 
   Le client du projet, M. Boulle, demande l’amélioration d’une tireuse à bière Philips PerfectDraft. Dans une approche IOT/industrie 4.0, il souhaite une machine connectée qui envoie des données de température, de niveau de bière et de puissance électrique à l’utilisateur. Ces données doivent pouvoir être lues sur une application web ou un site web disponible sur téléphone portable, et ensuite sur ordinateur. Il est également demandé la création de plans et de gammes de maintenance, qui seront accessibles depuis l’application.
   
+  * Lien vers le backlog produit :
+  
+  * Lien vers les sprints :
+  
   
 
 
