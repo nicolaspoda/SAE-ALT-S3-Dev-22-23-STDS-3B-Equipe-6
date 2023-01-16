@@ -1,0 +1,33 @@
+une version mobile 
+
+une version ordi
+
+But : récupérer des données MQTT et faire un affichage graphique de ces données afin d’aider à la prise de décision + des fonctionnalités de maintenance
+
+![20230116_095616.jpg](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/f5178028-5dcf-41ce-b061-0a9c92609005/20230116_095616.jpg)
+
+on récupere juste les données et on fait une interface graphique
+
++ documentation technique pour installer facilement le projet
+
++gestion du github 
+
+Gestion du projet
+
+Scrum accéléré ⇒ 2 Sprints
+
+- faire le backlog produit
+    - user story
+- Backlog des sprints
+    - donner des tâches
+
+- Scum Master
+- Product Owner
+
+Readme github
+
+- un lien vers Backlog Produit
+- vers Sprint
+- vers doc
+- vers les tests
+- vers la release
