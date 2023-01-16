@@ -20,6 +20,15 @@ Rôle dans l'équipe :
   * Lien vers le backlog produit :
   
   * Lien vers les sprints :
+
+  * Lien vers la documentation technique : 
+
+  * Lien vers les tests : 
+
+  * Lien vers la release : 
+ 
+
+
   
   
 
