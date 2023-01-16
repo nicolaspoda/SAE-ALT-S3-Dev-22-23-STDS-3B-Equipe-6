@@ -6,7 +6,7 @@ SAE DevApp Alt Groupe 3B6
 
 Rôle dans l'équipe :
 
-* Nicolas Poda : 
-* Elvis Pichou :
-* Nicolas Sacilotto :
-* Olivier Recher :
+* Nicolas Poda : SCRUM Master
+* Elvis Pichou : Développeur
+* Nicolas Sacilotto : Développeur
+* Olivier Recher : Product Owner
