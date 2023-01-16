@@ -4,7 +4,7 @@ SAE DevApp Alt Groupe 3B6
 
 # Equipe
 
-Rôle dans l'équipe::
+Rôle dans l'équipe ::
 
 * Nicolas Poda : 
 * Elvis Pichou :
