@@ -6,7 +6,7 @@ SAE DevApp Alt Groupe 3B6
 
 [2. Présentation du projet](#presentation)
   - [2.1. Contexte du projet](#contexte)
-  - [2.2. Langage et outils utilisés](#langages)
+  - [2.2. Langages et outils utilisés](#langages)
   
 [3. Réalisations](#realisations)
   - [3.1. Documents](#documents)
