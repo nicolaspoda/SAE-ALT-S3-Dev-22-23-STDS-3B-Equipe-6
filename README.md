@@ -77,7 +77,7 @@ Rôle de chaque membre de l'équipe :
 
 |  Description     | Lien |
 | ----------- | ----------- |
-|  Code  |   <ul><li>[Code de la vue de la page web](https://github.com/nicolaspoda/SAE-ALT-S3-Dev-22-23-STDS-3B-Equipe-6/blob/main/Sprint1/WebApp/home.html)</li> </li>     |
+|  Code  |   <ul><li>[Code de la vue de la page web](https://github.com/nicolaspoda/SAE-ALT-S3-Dev-22-23-STDS-3B-Equipe-6/blob/main/Sprint1/code/home.html)</li> </li>     |
 |     |             |
 
 ### Sprint 2.
