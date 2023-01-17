@@ -6,7 +6,7 @@ SAE DevApp Alt Groupe 3B6
 
 Rôle de chaque membre de l'équipe :
 
-* Nicolas Poda : SCRUM Master
+* [Nicolas Poda](https://github.com/nicolaspoda) : SCRUM Master
 * Elvis Pichou : Développeur
 * Nicolas Sacilotto : Product Owner
 * Olivier Recher : Développeur
