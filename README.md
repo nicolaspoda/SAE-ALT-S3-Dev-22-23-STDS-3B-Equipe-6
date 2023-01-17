@@ -54,25 +54,33 @@ Rôle de chaque membre de l'équipe :
  
 # 3. Réalisations 
 
-##3.1. Documents
+## 3.1. Documents
 
-| Syntax      | Description |
+| Description      | Lien |
 | ----------- | ----------- |
-| Header      | Title       |
-| Backlogs   |   - [Backlog produit](https://github.com/nicolaspoda/SAE-ALT-S3-Dev-22-23-STDS-3B-Equipe-6/blob/main/Backlog_produit.pdf)    |
-                 - test
-  
- - Lien vers les sprints 
-  
-   - Sprint 1 : (https://github.com/nicolaspoda/SAE-ALT-S3-Dev-22-23-STDS-3B-Equipe-6/tree/main/Sprint1)
-  
-   - Sprint 2 : (https://github.com/nicolaspoda/SAE-ALT-S3-Dev-22-23-STDS-3B-Equipe-6/tree/main/Sprint2)
+| Backlogs      | <ul><li>[Backlog produit](https://github.com/nicolaspoda/SAE-ALT-S3-Dev-22-23-STDS-3B-Equipe-6/blob/main/Backlog_produit.pdf)</li><li>Backlog sprint 1</li>       |
 
-  - Lien vers la documentation : 
+           
+## 3.2. Sprints
 
-  - Lien vers les tests : 
+### Sprint 1.
 
-  - Lien vers la release : 
+|  Description     | Lien |
+| ----------- | ----------- |
+|       |        |
+|     |             |
+
+### Sprint 2.
+
+| Description      | Lien |
+| ----------- | ----------- |
+|       |        |
+|     |             |
+
+
+- Lien vers la documentation : 
+- Lien vers les tests : 
+- Lien vers la release : 
  
 
 
