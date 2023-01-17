@@ -12,9 +12,9 @@ services:
       - POSTGRES_USER=timescale
       - POSTGRES_PASSWORD=password
 
-client:
-  image: nginx
-  ports: 
-    - 3000:80
-  volumes:
-  - C:\Users\olive\Desktop\SAE\
+  client:
+    image: nginx
+    ports: 
+      - 3000:80
+    volumes:
+    - ./src:/usr/share/nginx/htmldoc
