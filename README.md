@@ -3,10 +3,14 @@ SAE DevApp Alt Groupe 3B6
 
 ##### Table of Contents  
 [1. Equipe](#equipe)  
+
 [2. Présentation du projet](#presentation)
   - [2.1. Contexte du projet](#contexte)
+  - [2.2. Langage et outils utilisés](#langages)
   
 [3. Réalisations](#realisations)
+  - [3.1. Documents](#documents)
+  - [3.2. Sprints](#sprints)
 
 <a name="equipe">
  
@@ -46,7 +50,6 @@ Rôle de chaque membre de l'équipe :
 
 - Système de gestion de bases de données
 
-  - Oracle
   - timescaleDB
   - phpmyadmin
   
@@ -54,12 +57,17 @@ Rôle de chaque membre de l'équipe :
  
 # 3. Réalisations 
 
+<a name="documents">
+
 ## 3.1. Documents
 
 | Description      | Lien |
 | ----------- | ----------- |
-| Backlogs      | <ul><li>[Backlog produit](https://github.com/nicolaspoda/SAE-ALT-S3-Dev-22-23-STDS-3B-Equipe-6/blob/main/Backlog_produit.pdf)</li><li>Backlog sprint 1</li>       |
-
+| Backlogs      | <ul><li>[Backlog produit](https://github.com/nicolaspoda/SAE-ALT-S3-Dev-22-23-STDS-3B-Equipe-6/blob/main/Backlog_produit.pdf)</li><li>[Backlog sprint 1](https://github.com/nicolaspoda/SAE-ALT-S3-Dev-22-23-STDS-3B-Equipe-6/blob/main/Sprint1/Backlogs/BacklogSprint1.pdf)</li>       |
+| Tests  |         |
+| Release  |       |
+| Documentation  |     |
+<a name="sprints">
            
 ## 3.2. Sprints
 
@@ -67,7 +75,7 @@ Rôle de chaque membre de l'équipe :
 
 |  Description     | Lien |
 | ----------- | ----------- |
-|       |        |
+|  Code  |   <ul><li>[Code de la vue de la page web](https://github.com/nicolaspoda/SAE-ALT-S3-Dev-22-23-STDS-3B-Equipe-6/blob/main/Sprint1/WebApp/home.html)</li> </li>     |
 |     |             |
 
 ### Sprint 2.
@@ -78,9 +86,6 @@ Rôle de chaque membre de l'équipe :
 |     |             |
 
 
-- Lien vers la documentation : 
-- Lien vers les tests : 
-- Lien vers la release : 
  
 
 
