@@ -12,6 +12,8 @@ SAE DevApp Alt Groupe 3B6
   - [3.1. Documents](#documents)
   - [3.2. Sprints](#sprints)
 
+[4. Gestion de projet et qualité](#gestion)
+
 <a name="equipe">
  
 # 1. Equipe
@@ -85,7 +87,9 @@ Rôle de chaque membre de l'équipe :
 |       |        |
 |     |             |
 
+<a name="gestion">
 
+# 4. Gestion de projet et qualité
  
 
 
