@@ -48,7 +48,7 @@ Rôle de chaque membre de l'équipe :
   - Docker
   - Nodered
 
-- Système de gestion de bases de données
+- Pour les bases de données
 
   - timescaleDB
   - phpmyadmin
