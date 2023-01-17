@@ -39,7 +39,7 @@ Rôle de chaque membre de l'équipe :
   
 ## Les liens 
   
- - Lien vers le backlog produit : https://github.com/nicolaspoda/SAE-ALT-S3-Dev-22-23-STDS-3B-Equipe-6/blob/main/Sprint1/User_Story/fonctionnalite_attendu.adoc
+ - Lien vers le backlog produit : https://github.com/nicolaspoda/SAE-ALT-S3-Dev-22-23-STDS-3B-Equipe-6/blob/main/Backlog_produit.pdf
   
  - Lien vers les sprints 
   
