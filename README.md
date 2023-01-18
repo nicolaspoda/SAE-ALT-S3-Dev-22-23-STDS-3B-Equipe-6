@@ -90,6 +90,8 @@ Rôle de chaque membre de l'équipe :
 <a name="gestion">
 
 # 4. Gestion de projet et qualité
+
+* Blocage par rapport au PC, le fait de ne pas avoir été formé sur le JavaScript a posé problème pour trouver certaines solutions
  
 
 
