@@ -1,35 +1,69 @@
 const express = require('express');
+const http = require('http');
+const mqtt = require('mqtt');
+const cors = require('cors');
 
 const app = express();
+const server = http.createServer(app);
 
-app.get('/', (req, res) => {
-    res.send("Hello Wolrd");
+//pas modif
+app.use(cors());
+
+const io = require("socket.io")(server, {
+  cors: {
+    origin: "*",
+    credentials: true
+  }
 });
 
-app.listen(3001, () => {
-    console.log("server listening on port 3001")
-})
+const client = mqtt.connect('mqtt://iot.iut-blagnac.fr:1883', {
+    clientId : "idClient",
+    clean : true, //olbigatoire ?
+    connectTimeout : 5000, //olbigatoire ?
+    username : "student",
+    password : "student",
+    reconnectPeriod : 100, //olbigatoire ?
+});
+let result;
+
+client.on('connect', () => {
+    console.log('Connected to MQTT server');
+    client.subscribe(['#'],() => {console.log('Subscribe to all topics')});
+});
+
+client.on('message', (topic, message) => {
+     result = message.toString();
+     try {
+        result = JSON.parse(result)
+      } catch(e) {}
+
+      let id = topic.toString();
+
+      console.log("sending to " + topic)
+    
+      io.emit(encodeURI(topic), topic.toString() +" : "+result)
+});
 
 
-import { WebSocketServer } from "ws";
-
-const server = new WebSocketServer({ port: 3000 });
-
-server.on("connection", (socket) => {
-  // send a message to the client
-  socket.send(JSON.stringify({
-    type: "hello from server",
-    content: [ 1, "2" ]
-  }));
-
-  // receive a message from the client
-  socket.on("message", (data) => {
-    const packet = JSON.parse(data);
-
-    switch (packet.type) {
-      case "hello from client":
-        // ...
-        break;
-    }
+io.on('connection', (socket) => {
+    console.log('a user connected');
+    socket.on('disconnect', () => {
+      console.log('user disconnected');
+    });
   });
-});
+  
+  server.listen(3001, () => {
+    console.log('server listening on port 3001');
+  });
+
+
+
+// app.get('/', (req, res) => {
+//     res.send("Hello Wolrd");
+// });
+
+// app.listen(3001, () => {
+//     console.log("server listening on port 3001")
+// })
+
+
