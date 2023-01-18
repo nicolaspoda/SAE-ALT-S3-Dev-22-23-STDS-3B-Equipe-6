@@ -17,4 +17,13 @@ services:
     ports: 
       - 3000:80
     volumes:
-    - ./src:/usr/share/nginx/htmldoc
+    - ./src:/usr/share/nginx/html
+
+  back:
+    build:
+      context: .
+    volumes:
+      - .:/src
+    command: npm run start
+    ports:
+      - "3001:3001"
