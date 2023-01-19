@@ -77,7 +77,7 @@ Rôle de chaque membre de l'équipe :
 
 |  Description     | Lien |
 | ----------- | ----------- |
-|  Code  |   <ul><li>[Code de la vue de la page web](https://github.com/nicolaspoda/SAE-ALT-S3-Dev-22-23-STDS-3B-Equipe-6/blob/main/Sprint1/code/home.html)</li> </li>     |
+|  Code  |   <ul><li>[Code de la page d'accueil](https://github.com/nicolaspoda/SAE-ALT-S3-Dev-22-23-STDS-3B-Equipe-6/blob/main/Sprint1/codeV2/src/index.html)</li> </li>     |
 |     |             |
 
 ### Sprint 2.
@@ -91,7 +91,12 @@ Rôle de chaque membre de l'équipe :
 
 # 4. Gestion de projet et qualité
 
-* Blocage par rapport au PC, le fait de ne pas avoir été formé sur le JavaScript a posé problème pour trouver certaines solutions
+* Blocage par rapport au PC, le fait de ne pas avoir été formés sur le JavaScript a posé problème pour trouver certaines solutions
+* Stagnation sur certaines tâches, nous faisant perdre du temps
+* Difficultés avec Docker, Node-Red car nous ne maîtrisions pas ces outils
+* SAE intéressante, toutefois quelques difficultés
+
+
  
 
 
