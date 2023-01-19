@@ -29,7 +29,7 @@
                         
                         <li class="d-inline-flex"><a class="dropdown-item" href="./document/STDS_notice_utilisation.pdf" target="_blank">Notice d'utilisation</a><img src="./image/script.png" class="img-fluid icon-nav mt-1 position-absolute end-0 me-2" alt="file"></li>
 
-                        <li class="d-inline-flex"><a class="dropdown-item" href="#" target="_blank">Manuel de service</a><img src="./image/script.png" class="img-fluid icon-nav mt-1 position-absolute end-0 me-2" alt="file"></li>
+                        <li class="d-inline-flex"><a class="dropdown-item" href="./document/manuel.pdf" target="_blank">Manuel de service</a><img src="./image/script.png" class="img-fluid icon-nav mt-1 position-absolute end-0 me-2" alt="file"></li>
 
                         <li><a class="dropdown-item" href="./maintenance_preventive.html">Maintenance préventive</a></li>
                         <li><a class="dropdown-item" href="./maintenance_curative.html">Maintenance curative</a></li>
@@ -41,43 +41,20 @@
         </div>
     </nav>
 
-    <div class="row justify-content-center">
-        <div class="col-sm-11 mt-4">
-            <div class="card">
-                <div class="card-body">
-                    <h5 class="card-title">Gamme 1</h5>
-                    <a href ="Gamme 1.pdf" download="Gamme1.pdf" class="btn.pdf"> Gamme 1 </a>
-                </div>
-            </div>
+    <div class="container mt-5">
+
+        <div id="btn1" class="row justify-content-center mt-3 px-md-5 btnPdf">
+            <a class="text-light btn btn-lg btn-primary col-11 mt-4" href="./document/ventilateur.pdf" target="_blank">Nettoyage du ventilateur<span><img src="../image/script.png" class="img-fluid icon-nav mt-1 position-relative end-0 ms-2 mb-2" alt="file"></span></a>
         </div>
-        <div class="col-sm-11 mt-4">
-            <div class="card">
-                <div class="card-body">
-                    <h5 class="card-title">Gamme 2</h5>
-                    <a href ="Gamme 2.pdf" download="Gamme2.pdf" class="btn.pdf"> Gamme 2 </a>
-                </div>
-            </div>
+
+        <div class="row justify-content-center mt-3 px-md-5">
+           <a class="text-light btn btn-lg btn-primary col-11 mt-4" href="./document/batterie.pdf" target="_blank">Batterie de tests avec système en mode test/maintenance<span><img src="../image/script.png" class="img-fluid icon-nav mt-1 position-relative end-0 ms-2 mb-2" alt="file"></span></a>
         </div>
-        <div class="col-sm-11 mt-4">
-            <div class="card">
-                <div class="card-body">
-                    <h5 class="card-title">Gamme 3</h5>
-                    <a href ="Gamme 3.pdf" download="Gamme3.pdf" class="btn.pdf"> Gamme 3 </a>
-                </div>
-            </div>
-        </div>
-        <div class="col-sm-11 mt-4">
-            <div class="card">
-                <div class="card-body">
-                    <h5 class="card-title">Gamme 4</h5>
-                    <a href ="Gamme 4.pdf" download="Gamme4.pdf" class="btn.pdf"> Gamme 4 </a>
-                </div>
-            </div>
-        </div>
+
     </div>
 
 
     <script src="https://cdn.socket.io/4.5.4/socket.io.min.js" integrity="sha384-/KNQL8Nu5gCHLqwqfQjA689Hhoqgi2S84SNUxC3roTe4EhJ9AfLkp8QiQcU8AMzI" crossorigin="anonymous"></script>
-    <script type="text/javascript" src="front.js"></script>
+    <script src="front.js"></script>
 </body>
 </html>
