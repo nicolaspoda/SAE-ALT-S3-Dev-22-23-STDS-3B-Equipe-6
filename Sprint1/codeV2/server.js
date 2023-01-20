@@ -16,8 +16,11 @@ const io = require("socket.io")(server, {
   }
 });
 
+var random = Math.floor(Math.random() * 10000);
+
 const client = mqtt.connect('mqtt://iot.iut-blagnac.fr:1883', {
-    clientId : "idClient",
+    clientId : random.toString(), // Il faut  placer un id client random ou en lien avec le pc de l'utilisateur
+    // car quand 2 connexion, problème de conflit
     clean : true, //olbigatoire ?
     connectTimeout : 5000, //olbigatoire ?
     username : "student",
@@ -27,8 +30,8 @@ const client = mqtt.connect('mqtt://iot.iut-blagnac.fr:1883', {
 let result;
 
 client.on('connect', () => {
-    console.log('Connected to MQTT server');
-    client.subscribe(['#'],() => {console.log('Subscribe to all topics')});
+  console.log('Connected to MQTT server');
+  client.subscribe(['#'],() => {console.log('Subscribe to all topics')});
 });
 
 client.on('message', (topic, message) => {
