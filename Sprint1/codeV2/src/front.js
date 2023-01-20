@@ -14,6 +14,7 @@ socket.on(encodeURI("STDS/2/Température/T2"), (arg) => {
 socket.on("STDS/2/Niveau", (arg) => {
   console.log("niveau", arg);
   document.getElementById('quantite').innerHTML = arg;
+
   var barreProgression = document.getElementById('myProgressBar')
   if(barreProgression) {
     console.log("GOOD")
@@ -36,6 +37,7 @@ socket.on("STDS/2/Niveau", (arg) => {
 socket.on("STDS/2/Puissance", (arg) => {
   console.log(arg);
   document.getElementById('puissance').innerHTML = arg;
+
   var barreProgression2 = document.getElementById('myProgressBarPuissance')
   barreProgression2.style.width = (arg / 4) * 100 + "%"
   if(arg > 1.33 && arg < 2.66) {
@@ -58,6 +60,7 @@ socket.on("STDS/2/Diag", (arg) => {
 socket.on("STDS/2/C02", (arg) => {
   console.log(arg);
   document.getElementById('CO2').innerHTML = arg;
+  
   var barreProgression3 = document.getElementById('myProgressBarCO2')
   barreProgression3.style.width = (arg / 4) * 100 + "%"
 });
