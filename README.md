@@ -53,7 +53,7 @@ Rôle de chaque membre de l'équipe :
 
 - Pour les bases de données
 
-  - timescaleDB
+  - timescaleDB 
   
  <a name="realisations">
  
@@ -66,9 +66,9 @@ Rôle de chaque membre de l'équipe :
 | Description      | Lien |
 | ----------- | ----------- |
 | Backlogs      | <ul><li>[Backlog produit](https://github.com/nicolaspoda/SAE-ALT-S3-Dev-22-23-STDS-3B-Equipe-6/blob/main/Backlog_produit.pdf)</li><li>[Backlog sprint 1](https://github.com/nicolaspoda/SAE-ALT-S3-Dev-22-23-STDS-3B-Equipe-6/blob/main/Sprint1/Backlogs/BacklogSprint1.pdf)</li>       |
-| Tests  |         |
+| Tests  |     [Les tests](https://github.com/nicolaspoda/SAE-ALT-S3-Dev-22-23-STDS-3B-Equipe-6/tree/main/Sprint1/test)    |
 | Release  |       |
-| Documentation  |     |
+| Documentation  |  [La documentation](https://github.com/nicolaspoda/SAE-ALT-S3-Dev-22-23-STDS-3B-Equipe-6/tree/main/Sprint1/codeV2/src/document)   |
 <a name="sprints">
            
 ## 3.2. Sprints
@@ -77,8 +77,7 @@ Rôle de chaque membre de l'équipe :
 
 |  Description     | Lien |
 | ----------- | ----------- |
-|  Code  |   <ul><li>[Code de la page d'accueil](https://github.com/nicolaspoda/SAE-ALT-S3-Dev-22-23-STDS-3B-Equipe-6/blob/main/Sprint1/codeV2/src/index.html)</li> </li>     |
-|     |             |
+|  Code  |   [Dossier contenant le code](https://github.com/nicolaspoda/SAE-ALT-S3-Dev-22-23-STDS-3B-Equipe-6/tree/main/Sprint1/codeV2)    |
 
 ### Sprint 2.
 
