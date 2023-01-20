@@ -97,7 +97,7 @@ Rôle de chaque membre de l'équipe :
 * Nous à fait apprendre de nouvelles technologies
 
 
-* à faire pour lundi : lié le back au front-end. étudier la piste des websockets
+* à faire pour lundi : lier le back au front-end. étudier la piste des websockets
 
 
 
