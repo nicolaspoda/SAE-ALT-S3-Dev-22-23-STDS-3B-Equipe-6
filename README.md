@@ -44,16 +44,16 @@ Rôle de chaque membre de l'équipe :
   - HTML
   - CSS
   - JavaScript
+  - Bootstrap
 
 - Pour le back
 
   - Docker
-  - Nodered
+  - Node.js
 
 - Pour les bases de données
 
   - timescaleDB
-  - phpmyadmin
   
  <a name="realisations">
  
@@ -93,8 +93,10 @@ Rôle de chaque membre de l'équipe :
 
 * Blocage par rapport au PC, le fait de ne pas avoir été formés sur le JavaScript a posé problème pour trouver certaines solutions
 * Stagnation sur certaines tâches, nous faisant perdre du temps
-* Difficultés avec Docker, Node-Red car nous ne maîtrisions pas ces outils
+* Difficultés avec Docker, Node.js car nous ne maîtrisions pas ces outils
 * SAE intéressante, toutefois quelques difficultés
+* Nous à fait apprendre de nouvelles technologies
+
 
 
  
