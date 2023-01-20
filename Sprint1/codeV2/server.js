@@ -41,7 +41,7 @@ client.on('message', (topic, message) => {
 
       console.log("sending to " + topic)
     
-      io.emit(encodeURI(topic), topic.toString() +" : "+result)
+      io.emit(encodeURI(topic), result)
 });
 
 
