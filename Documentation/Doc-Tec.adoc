@@ -1,1 +1,156 @@
+= SAE 3.A.01 - Document technique 
+:toc:
+
+:toc:
+
+== Sommaire
+
+== Présentation rapide de l'application
+
+=== Use case global
+
+image::https://github.com/nicolaspoda/SAE-ALT-S3-Dev-22-23-STDS-3B-Equipe-6/blob/main/Images/UC-STDS.svg[Use case de STDS]
+
+=== Architecture générale en termes de sous-systèmes et rôle de chaque élément
+
+* Poste client
+
+Un poste client correspond à un ordinateur utilisé par une personne possédant la tireuse à bière, souhaitant connaître les informations données sur le site web (le niveau de fût, la température, etc). 
+
+* Sevreurs 
+
+Le serveur de base de données prend en charge les données de séries chronologiques orientées vers le stockage, les performances et les fonctions d'analyse pour les données à grande échelle.
+
+=== Ressources externes utilisées et rôles 
+
+* Docker : Docker est une plate-forme logicielle qui vous permet de concevoir, tester et déployer des applications rapidement. C'est en utilisant des commandes Docker que les données seront affichées sur le site en temps réel.
+
+* Node-Js : Node.Js permet d'exécuter plusieurs requêtes vers le serveur de base de données simultanément. Node.js est capable de gérer une multitude de requêtes sans attendre que la requête lancée précédemment soit terminée.
+
+=== Structuration en packages de l'application documentée. Principes retenus pour cette structuration
+
+image::https://github.com/nicolaspoda/SAE-ALT-S3-Dev-22-23-STDS-3B-Equipe-6/blob/main/Images/structure_code.png[Structure du code]
+
+* *detailDonnees* : c'est ici que nous retrouvons le code correspondant à la vue du détail des données (code HTML des pages liées à la tempéature, le niveau de fût et la puissance consommée).
+
+* *document* : c'est ici que nous retrouvons tous les fichier PDF consultables depuis l'application.
+
+* *image* : c'est dans ce dossier que les images affichées au sein de l'application sont stockées.
+
+Dans les sources du projet, nous retrouvons tout le reste, c'est-à-dire le code HTML de chaque page (sauf celui du détail des données), le code CSS, le code JavaScript, ainsi que les fichiers docker.
+
+== Fonctionnalités de l'application
+
+=== Consulter la température
+
+* *Partie de use case réalisée*
+
+Dans le diagramme des use case, un cas d'utilisation nommé "Consulter la température ambiante" a été créé. Il a été relié à l'acteur "Client".
+
+* *Copies écran principales de la fonctionnalité*
+
+Les copies écran sont disponibles dans le document utilisateur.
+
+* *Parties de code impliquées*
+
+Les fichiers impliqués sont : index.html, front.js, temperature.html, server.js
+
+=== Consulter le niveau du fût
+
+* *Partie de use case réalisée*
+
+Dans le diagramme des use case, un cas d'utilisation nommé "Consulter le niveau du fût" a été créé. Il a été relié à l'acteur "Client".
+
+* *Copies écrans principales de la fonctionnalité*
+
+Les copies écran sont disponibles dans le document utilisateur.
+
+* *Parties de code impliquées*
+
+Les fichiers impliqués sont : index.html, front.js, quantite.html, server.js
+
+=== Consulter la puissance consommée
+
+* *Partie de use case réalisée*
+
+Dans le diagramme des use case, un cas d'utilisation nommé "Consulter la puissance consommée" a été créé. Il a été relié à l'acteur "Client".
+
+* *Copies écrans principales de la fonctionnalité*
+
+Les copies écran sont disponibles dans le document utilisateur.
+
+* *Parties de code impliquées*
+
+Les parties de code impliquées sont index.html, front.js, puissance.html, server.js
+
+=== Consulter les altertes liées à une anomalie
+
+* *Partie de use case réalisée*
+
+Dans le diagramme des use case, un cas d'utilisation nommé "Consulter les alertes liées à une anomalie" a été créé. Il a été relié à l'acteur "Client".
+
+* *Copies écrans principales de la fonctionnalité*
+
+Les copies écran sont disponibles dans le document utilisateur.
+
+* *Parties de code impliquées*
+
+Les parties de code impliquées sont index.html, front.js, server.js
+
+=== Consulter la quantité de CO2
+
+* *Partie de use case réalisée*
+
+Dans le diagramme des use case, un cas d'utilisation nommé "Consulter la quantité de CO2" a été créé. Il a été relié à l'acteur "Client".
+
+* *Copies écrans principales de la fonctionnalité*
+
+Les copies écran sont disponibles dans le document utilisateur.
+
+* *Parties de code impliquées*
+
+Les parties de code impliquées sont index.html, front.js, server.js
+
+=== Accéder à la notice d'utilisation
+
+* *Partie de use case réalisée*
+
+Dans le diagramme des use case, un cas d'utilisation nommé "Accéder à la notice d'utilisation" a été créé. Il a été relié à l'acteur "Client".
+
+* *Copies écrans principales de la fonctionnalité*
+
+Les copies écran sont disponibles dans le document utilisateur.
+
+* *Parties de code impliquées*
+
+La partie de code impliquée est index.html
+
+=== Accéder au manuel de service
+
+* *Partie de use case réalisée*
+
+Dans le diagramme des use case, un cas d'utilisation nommé "Accéder au manuel de service" a été créé. Il a été relié à l'acteur "Client".
+
+* *Copies écrans principales de la fonctionnalité*
+
+Les copies écran sont disponibles dans le document utilisateur.
+
+* *Parties de code impliquées*
+
+La partie de code impliquée est index.html
+
+=== Consulter les gammes de maintenance
+
+* *Partie de use case réalisée*
+
+Dans le diagramme des use case, un cas d'utilisation nommé "Consulter les gammes de maintenance" a été créé. Il a été relié à l'acteur "Client".
+
+* *Copies écrans principales de la fonctionnalité*
+
+Les copies écran sont disponibles dans le document utilisateur.
+
+* *Parties de code impliquées*
+
+La parties de code impliquées sont index.html, maintenance_curative.html, maitenance_preventive.html
+
 
