@@ -1,1 +1,100 @@
+= SAE 3.A.01 - Document Utilisateur
+:toc:
+
+:toc:
+
+*Ce document utilisateur sera mis à jour lorsqu'il y aura des évolutions au sein de l'application.*
+
+== Afficher les données sur l'application avec les commandes Docker
+
+Tout d'abord, vous devez vous rendre sur Visual Studio Code et ouvrir un terminal.
+
+Ensuite, vous devez vous placer dans le répertoire dans lequel les fichiers Docker sont répertoriés.
+
+Il vous faudra saisir la commande "docker-compose up -d".
+
+image::https://github.com/nicolaspoda/SAE-ALT-S3-Dev-22-23-STDS-3B-Equipe-6/blob/main/Images/docker_compose_up.png[docker]
+
+Les données s'afficheront alors sur votre site.
+
+== Écran d'accueil
+
+L'écran d'accueil se présente comme ceci.
+
+image::https://github.com/nicolaspoda/SAE-ALT-S3-Dev-22-23-STDS-3B-Equipe-6/blob/main/Images/accueil-stds.png[Accueil site]
+
+=== Consulter la température
+
+Lorsque vous arrivez sur l'écran d'accueil, vous pouvez consulter la température du fût.
+
+image::https://github.com/nicolaspoda/SAE-ALT-S3-Dev-22-23-STDS-3B-Equipe-6/blob/main/Images/index_temperature.png[temperature]
+
+=== Consulter le niveau du fût de bière
+
+Lorsque vous arrivez sur l'écran d'accueil, vous pouvez consulter le niveau du fût.
+
+image::https://github.com/nicolaspoda/SAE-ALT-S3-Dev-22-23-STDS-3B-Equipe-6/blob/main/Images/index_quantiteFut.png[quantite]
+
+=== Consulter la puissance
+
+Lorsque vous arrivez sur l'écran d'accueil, vous pouvez consulter la puissance consommée.
+
+image::https://github.com/nicolaspoda/SAE-ALT-S3-Dev-22-23-STDS-3B-Equipe-6/blob/main/Images/puissance_index.png[puissance]
+
+=== Consulter la quantité de CO2
+
+image::https://github.com/nicolaspoda/SAE-ALT-S3-Dev-22-23-STDS-3B-Equipe-6/blob/main/Images/CO2_index.png[co2]
+
+Lorsque vous arrivez sur l'écran d'accueil, vous pouvez consulter la quantité de CO2.
+
+=== Consulter les alertes liées à une anomalie
+
+Lorsque vous arrivez sur l'écran d'accueil, vous pouvez consulter les alertes liées à une anomalie.
+
+image::https://github.com/nicolaspoda/SAE-ALT-S3-Dev-22-23-STDS-3B-Equipe-6/blob/main/Images/alerte_index.png[alerte]
+
+== Autres pages
+
+=== Accéder à la notice d'utilisation
+
+Pour accéder à la notice d'utilisation, il vous faudra vous rendre dans le menu "maintenance".
+
+Par la suite, il vous faudra cliquer sur "Notice d'utilisation".
+
+image::https://github.com/nicolaspoda/SAE-ALT-S3-Dev-22-23-STDS-3B-Equipe-6/blob/main/Images/notice_util.png[notice]
+
+Vous aurez accès au PDF de la notice d'utilisation.
+
+=== Accéder au manuel de service
+
+Pour accéder au manuel de service, il vous faudra vous rendre dans le menu "maintenance".
+
+image::https://github.com/nicolaspoda/SAE-ALT-S3-Dev-22-23-STDS-3B-Equipe-6/blob/main/Images/menu_maintenance.png[menu]
+
+Par la suite, il vous faudra cliquer sur "Manuel de service".
+
+image::https://github.com/nicolaspoda/SAE-ALT-S3-Dev-22-23-STDS-3B-Equipe-6/blob/main/Images/manuel_service.png[maintenance]
+
+Vous aurez accès au PDF du manuel de service.
+
+=== Consulter les gammes de maintenance
+
+Pour accéder aux gammes de maintenance, il vous faudra vous rendre dans le menu "maintenance".
+
+image::https://github.com/nicolaspoda/SAE-ALT-S3-Dev-22-23-STDS-3B-Equipe-6/blob/main/Images/menu_maintenance.png[menu]
+
+En fonction des gammes de maintenance que vous souhaitez consulter, il vous faudra choisir "Maintenance préventive" ou "Maintenance curative".
+
+Si vous choisissez "Maintenance préventive", vous arriverez sur cette page :
+
+image::https://github.com/nicolaspoda/SAE-ALT-S3-Dev-22-23-STDS-3B-Equipe-6/blob/main/Images/maitenance_preventive_page.png[preventive]
+
+Si vous choisissez "Maintenance curative", vous arriverez sur cette page :
+
+image::https://github.com/nicolaspoda/SAE-ALT-S3-Dev-22-23-STDS-3B-Equipe-6/blob/main/Images/maintenance_curative_page.png[curative]
+
+Il ne vous reste plus qu'à choisir la gamme de maintenance que vous souhaitez consulter.
+
+
+
 
