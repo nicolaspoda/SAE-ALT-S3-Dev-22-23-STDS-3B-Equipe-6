@@ -9,8 +9,6 @@ SAE DevApp Alt Groupe 3B6
   - [2.2. Langages et outils utilisés](#langages)
   
 [3. Réalisations](#realisations)
-  - [3.1. Documents](#documents)
-  - [3.2. Sprints](#sprints)
 
 [4. Gestion de projet](#gestion)
 
@@ -33,7 +31,7 @@ Rôle de chaque membre de l'équipe :
 
 ## 2.1. Contexte du projet
 
-  Le client du projet, M. Boulle, demande l’amélioration d’une tireuse à bière Philips PerfectDraft. Dans une approche IOT/industrie 4.0, il souhaite une machine connectée qui envoie des données de température, de niveau de bière et de puissance électrique à l’utilisateur. Ces données doivent pouvoir être lues sur une application web ou un site web disponible sur téléphone portable, et ensuite sur ordinateur. C'est pourquoi six étudiants en GIM nous ont contacté afin que nous réalisons ce site web. Le but est de récupérer les données collectées et qui sont transmisses grâce à un bus MQTT. Il est également demandé la création de plans et de gammes de maintenance, qui seront accessibles depuis l’application.
+  Le client du projet, M. Boulle, demande l’amélioration d’une tireuse à bière Philips PerfectDraft. Dans une approche IOT/industrie 4.0, il souhaite une machine connectée qui envoie des données de température, de niveau de bière et de puissance électrique à l’utilisateur. Ces données doivent pouvoir être lues sur une application web ou un site web disponible sur téléphone portable, et ensuite sur ordinateur. C'est pourquoi six étudiants en GIM nous ont contacté afin que nous réalisions ce site web. Le but est de récupérer les données collectées et qui sont transmisses grâce à un bus MQTT. Il est également demandé la création de plans et de gammes de maintenance, qui seront accessibles depuis l’application.
  
 <a name="langages">
   
@@ -61,32 +59,16 @@ Rôle de chaque membre de l'équipe :
 
 <a name="documents">
 
-## 3.1. Documents
 
 | Description      | Lien |
 | ----------- | ----------- |
 | Backlogs      | <ul><li>[Backlog produit](https://github.com/nicolaspoda/SAE-ALT-S3-Dev-22-23-STDS-3B-Equipe-6/blob/main/Backlog_produit.pdf)</li><li>[Backlog sprint 1](https://github.com/nicolaspoda/SAE-ALT-S3-Dev-22-23-STDS-3B-Equipe-6/blob/main/Sprint1/Backlogs/BacklogSprint1.pdf)</li>       |
 | Tests  |     [Cahier de tests](https://github.com/nicolaspoda/SAE-ALT-S3-Dev-22-23-STDS-3B-Equipe-6/blob/main/Documentation/Cahier-tests.adoc)    |
-| Release  |    [La release](https://github.com/nicolaspoda/SAE-ALT-S3-Dev-22-23-STDS-3B-Equipe-6/tree/main/Sprint1/codeV2)   | 
+| Release  |    [Release sprint 1](https://github.com/nicolaspoda/SAE-ALT-S3-Dev-22-23-STDS-3B-Equipe-6/tree/main/Sprint1/codeV2)   | 
 | Documentation  | <ul><li>[Documentation technique](https://github.com/nicolaspoda/SAE-ALT-S3-Dev-22-23-STDS-3B-Equipe-6/blob/main/Documentation/Doc-Tec.adoc)</li><li>[Documentation utilisateur](https://github.com/nicolaspoda/SAE-ALT-S3-Dev-22-23-STDS-3B-Equipe-6/blob/main/Documentation/Doc-User.adoc)</li> |
-| SprintBoard  |     [Sprint Board semaine 3](https://github.com/users/nicolaspoda/projects/1/views/1)    |
-
-<a name="sprints">
+| Sprint Board  |     [Sprint Board semaine 3](https://github.com/users/nicolaspoda/projects/1/views/1)    |
            
-## 3.2. Sprints
 
-### Sprint 1.
-
-|  Description     | Lien |
-| ----------- | ----------- |
-|  Code  |   [Dossier contenant le code](https://github.com/nicolaspoda/SAE-ALT-S3-Dev-22-23-STDS-3B-Equipe-6/tree/main/Sprint1/codeV2)    |
-
-### Sprint 2.
-
-| Description      | Lien |
-| ----------- | ----------- |
-|       |        |
-|     |             |
 
 <a name="gestion">
 
