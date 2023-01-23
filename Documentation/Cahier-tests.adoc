@@ -1,1 +1,78 @@
+|===
+|Nom du test |ID du test |Objectifs | Références | Conditions préalables |Configuration | Étapes de test | Résultat attendu
 
+|Accès à l'historique des données
+|01
+|Consulter l'historique des données
+|En tant qu'utilisateur, je souhaite voir les données des jours précédents grâce à des graphiques, afin d'avoir des informations sur la tireuse
+|Avoir accès aux données en temps réel
+|Docker
+|Se connecter sur l'application, aller sur la page qui nous permet de voir l'historique des données
+|Historique contenant les informations liées au fût de bière
+
+|Alertes de la tireuse
+|02
+|Recevoir les alertes de la tireuse
+|En tant qu'utilisateur, je souhaite recevoir les alertes de la tireuse, afin de pouvoir diagnostiquer une maintenance
+|Avoir accès aux données en temps réel
+|Docker
+|Se connecter sur l'application, observer la partie "Alerte" de la page d'accueil
+|Message d'alerte lorsqu'il y a une anomalie
+
+|Affichage de la puissance en watt de la tireuse
+|03
+|Afficher la puissance en watt de la tireuse
+|En tant qu'utilisateur, je dois pouvoir avoir accès à la puissance en watt de la tireuse
+|Avoir accès aux données en temps réel 
+|Docker
+|Aller sur l'application, observer la partie "Puissance" de la page d'accueil
+|Nombre de watt correspondant à la puissance
+
+|Provenance des erreurs
+|04
+|Afficher les erreurs
+|En tant qu'utilisateur, je dois savoir, s'il y a des erreurs, d'où proviennent ces dernières
+|Avoir accès aux données en temps réel
+|Docker
+|Aller sur le site, observer la provenance des erreurs
+|Erreurs affichées
+
+|Consultation des gammes de maintenance
+|05
+|Accéder aux PDF des gammes de maintenance
+|En tant qu'utilisateur, je souhaite avoir des documents d'aide, me permettant de m'occuper de la maintenance
+|Aucune condition préalable
+|Aucune configuration
+|Se rendre sur l'application, menu "Maintenance", choisir "Maintenance préventive" ou "Maintenance curative" et choisir une gamme de maintenance à consulter
+|PDF des gammes de maintenance
+
+|Affichage de la température intérieure et de la température extérieure
+|06
+|Consulter l'historique des données
+|En tant qu'utilisateur, j'ai accès à la température extérieure au fût et intérieure
+|Avoir accès aux données en temps réel 
+|Docker
+|Aller sur l'application, cliquer sur "Voir plus" de "Température"
+|Température extérieure et intérieure
+
+|Affichage du pourcentage de bière restant dans la machine
+|07
+|Consulter l'historique des données
+|En tant qu'utilisateur, j'ai accès au pourcentage de bière restant dans la machine
+|Avoir accès aux données en temps réel
+|Docker
+|Aller sur l'application, cliquer sur le bouton "Voir plus" de "Quantité fût"
+|Pourcentage du niveau de bière restant
+
+|Changement des couleurs du site
+|08
+|Consulter l'historique des données
+|En tant qu'utilisateur, je dois pouvoir changer les couleurs du site pour les personnes ayant des déficiences visuelles
+|Aucune condition préalable
+|Aucune configuration
+|Aller sur l'application, accéder à un menu permettant de changer les couleurs du site
+|Couleurs du site modifiées
+
+
+
+|===
