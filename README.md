@@ -12,7 +12,7 @@ SAE DevApp Alt Groupe 3B6
   - [3.1. Documents](#documents)
   - [3.2. Sprints](#sprints)
 
-[4. Gestion de projet et qualité](#gestion)
+[4. Gestion de projet](#gestion)
 
 <a name="equipe">
  
@@ -33,7 +33,7 @@ Rôle de chaque membre de l'équipe :
 
 ## 2.1. Contexte du projet
 
-  Le client du projet, M. Boulle, demande l’amélioration d’une tireuse à bière Philips PerfectDraft. Dans une approche IOT/industrie 4.0, il souhaite une machine connectée qui envoie des données de température, de niveau de bière et de puissance électrique à l’utilisateur. Ces données doivent pouvoir être lues sur une application web ou un site web disponible sur téléphone portable, et ensuite sur ordinateur. C'est pourquoi, notre client client, six étudiants en GIM, nous ont contacté afin que nous réalisons ce site web dont le but est de récupérer les données collectées et qui sont transmisses grâce à un bus MQTT. Il est également demandé la création de plans et de gammes de maintenance, qui seront accessibles depuis l’application.
+  Le client du projet, M. Boulle, demande l’amélioration d’une tireuse à bière Philips PerfectDraft. Dans une approche IOT/industrie 4.0, il souhaite une machine connectée qui envoie des données de température, de niveau de bière et de puissance électrique à l’utilisateur. Ces données doivent pouvoir être lues sur une application web ou un site web disponible sur téléphone portable, et ensuite sur ordinateur. C'est pourquoi six étudiants en GIM nous ont contacté afin que nous réalisons ce site web. Le but est de récupérer les données collectées et qui sont transmisses grâce à un bus MQTT. Il est également demandé la création de plans et de gammes de maintenance, qui seront accessibles depuis l’application.
  
 <a name="langages">
   
@@ -66,9 +66,11 @@ Rôle de chaque membre de l'équipe :
 | Description      | Lien |
 | ----------- | ----------- |
 | Backlogs      | <ul><li>[Backlog produit](https://github.com/nicolaspoda/SAE-ALT-S3-Dev-22-23-STDS-3B-Equipe-6/blob/main/Backlog_produit.pdf)</li><li>[Backlog sprint 1](https://github.com/nicolaspoda/SAE-ALT-S3-Dev-22-23-STDS-3B-Equipe-6/blob/main/Sprint1/Backlogs/BacklogSprint1.pdf)</li>       |
-| Tests  |     [Les tests](https://github.com/nicolaspoda/SAE-ALT-S3-Dev-22-23-STDS-3B-Equipe-6/tree/main/Sprint1/test)    |
+| Tests  |     [Cahier de tests](https://github.com/nicolaspoda/SAE-ALT-S3-Dev-22-23-STDS-3B-Equipe-6/blob/main/Documentation/Cahier-tests.adoc)    |
 | Release  |    [La release](https://github.com/nicolaspoda/SAE-ALT-S3-Dev-22-23-STDS-3B-Equipe-6/tree/main/Sprint1/codeV2)   | 
-| Documentation  |  [La documentation](https://github.com/nicolaspoda/SAE-ALT-S3-Dev-22-23-STDS-3B-Equipe-6/tree/main/Sprint1/codeV2/src/document)   |
+| Documentation  | <ul><li>[Documentation technique](https://github.com/nicolaspoda/SAE-ALT-S3-Dev-22-23-STDS-3B-Equipe-6/blob/main/Documentation/Doc-Tec.adoc)</li><li>[Documentation utilisateur](https://github.com/nicolaspoda/SAE-ALT-S3-Dev-22-23-STDS-3B-Equipe-6/blob/main/Documentation/Doc-User.adoc)</li> |
+| SprintBoard  |     [Sprint Board semaine 3](https://github.com/users/nicolaspoda/projects/1/views/1)    |
+
 <a name="sprints">
            
 ## 3.2. Sprints
@@ -88,7 +90,9 @@ Rôle de chaque membre de l'équipe :
 
 <a name="gestion">
 
-# 4. Gestion de projet et qualité
+# 4. Gestion de projet
+  
+**Retour d'expérience du premier sprint**
 
 * Blocage par rapport au PC, le fait de ne pas avoir été formés sur le JavaScript a posé problème pour trouver certaines solutions
 * Stagnation sur certaines tâches, nous faisant perdre du temps
