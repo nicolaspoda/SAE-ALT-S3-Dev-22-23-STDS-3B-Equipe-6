@@ -88,7 +88,9 @@ Rôle de chaque membre de l'équipe :
 
 === Retour sprint 3 EP 
 
-Backlog produit : il manque les finalités dans vos US "en tant que ... je veux ... afin de ...". Attention, regardez bien la vidéo pour la création des US dans Github, elles ne sont pas conformes à la demande (label US, critères d'acceptabilités, tâches liées, priorité) je dois tou retrouver dans Github.
+Backlog produit : il manque les finalités dans vos US "en tant que ... je veux ... afin de ...". Attention, regardez bien la vidéo pour la création des US dans Github, elles ne sont pas conformes à la demande (label US, critères d'acceptabilités, tâches liées, priorité) je dois tout retrouver dans Github.
+  
+Backlog sprint : Je dois avoir un sprintboard par semaine, des tâches avec label, reliées à une US. 
 
 Documentations bien mais il manque contexe, version, date, équipe.
 
