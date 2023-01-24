@@ -4,8 +4,6 @@ const socket = io("http://localhost:3001");
 socket.on(encodeURI("STDS/2/Température/T1"), (arg) => {
   console.log(arg);
   document.getElementById('tempFut').innerHTML = arg;
-  var thermo = document.getElementById('cvsThermometre')
-  thermo.innerHTML = arg;
   });
 
 socket.on(encodeURI("STDS/2/Température/T2"), (arg) => {
