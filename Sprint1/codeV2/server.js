@@ -2,7 +2,7 @@ const express = require('express');
 const http = require('http');
 const mqtt = require('mqtt');
 const cors = require('cors');
-
+const Bd = require('pg');
 const app = express();
 const server = http.createServer(app);
 
@@ -59,5 +59,23 @@ io.on('connection', (socket) => {
     console.log('server listening on port 3001');
   });
 
+  const bd = new Bd({
+    user: 'timescale',
+    host: 'timescaledb',
+    database: 'postgres',
+    password: 'password',
+    port: 5432,
+  });
+  
+  bd.connect();
+  
+  bd.query('SELECT valeur FROM donneesae4', (err, res) => {
+    if (err) throw err;
+    // for (let row of res.rows) {
+    //   console.log(JSON.stringify(row));
+    // }
+    io.emit("query",JSON.stringify(row));
+    bd.end();
+  });
 
 
