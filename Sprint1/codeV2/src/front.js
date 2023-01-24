@@ -4,11 +4,16 @@ const socket = io("http://localhost:3001");
 socket.on(encodeURI("STDS/2/Température/T1"), (arg) => {
   console.log(arg);
   document.getElementById('tempFut').innerHTML = arg + "°C";
+  var barreProgression3 = document.getElementById('myProgressBarTemperature')
+  barreProgression3.style.width = (arg / 120) * 100 + "%"
   });
 
 socket.on(encodeURI("STDS/2/Température/T2"), (arg) => {
   console.log(arg);
   document.getElementById('tempAmbiante').innerHTML = arg + "°C";
+
+  var barreProgression4 = document.getElementById('myProgressBarTemperature2')
+  barreProgression4.style.width = (arg / 120) * 100 + "%"
 });
 
 socket.on("STDS/2/Niveau", (arg) => {
