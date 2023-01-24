@@ -60,7 +60,7 @@
       <div class="card ml-1">
         <div class="card-body">
           <img src="../image/thermometer.png" class="img-fluid icon float-start align-self-center" alt="temperature">
-          <h5 class="card-title">Température de la bierre</h5>
+          <h5 class="card-title">Température de la bierre (en °C)</h5>
           <canvas id="chartTempInt"></canvas>
           <script>
             let ctx = document.getElementById("chartTempInt");
@@ -68,7 +68,7 @@
             let data = {
               labels: labels,
               datasets: [{
-                label: 'Température moyenne de la bierre par jour',
+                label: 'Température moyenne de la bierre par jour (en °C)',
                 data: [,,3.9,4.2,4, 3.6, 3.3, 4, 3.3, 3.4, 3.5],
                 fill: false,
                 borderColor: 'rgb(35, 230, 230)',
@@ -89,14 +89,14 @@
       <div class="card">
         <div class="card-body">
           <img src="../image/thermometer.png" class="img-fluid icon float-start align-self-center" alt="temperature">
-          <h5 class="card-title">Température de la pièce</h5>
+          <h5 class="card-title">Température de la pièce (en °C)</h5>
           <canvas id="chartTempExt"></canvas>
           <script>
             ctx = document.getElementById("chartTempExt");
             data = {
               labels: labels,
               datasets: [{
-                label: 'Température moyenne de la pièce par jour',
+                label: 'Température moyenne de la pièce par jour (en °C)',
                 data: [,,23, 22.5, 23.1, 22.6, 22.2, 23.7, 24, 23.6, 23.8],
                 fill: false,
                 borderColor: 'rgb(255, 75, 75)',
