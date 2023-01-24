@@ -62,6 +62,7 @@ socket.on("STDS/2/C02", (arg) => {
   
   var barreProgression3 = document.getElementById('myProgressBarCO2')
   barreProgression3.style.width = (arg / 4) * 100 + "%"
+  barreProgression3.style.backgroundColor = "blue"
 });
 
 socket.on("STDS/2/Diag", (arg) => {
