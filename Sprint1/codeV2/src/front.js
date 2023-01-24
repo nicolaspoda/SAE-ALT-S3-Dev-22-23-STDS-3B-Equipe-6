@@ -3,17 +3,17 @@ const socket = io("http://localhost:3001");
 
 socket.on(encodeURI("STDS/2/Température/T1"), (arg) => {
   console.log(arg);
-  document.getElementById('tempFut').innerHTML = arg;
+  document.getElementById('tempFut').innerHTML = arg + "°C";
   });
 
 socket.on(encodeURI("STDS/2/Température/T2"), (arg) => {
   console.log(arg);
-  document.getElementById('tempAmbiante').innerHTML = arg;
+  document.getElementById('tempAmbiante').innerHTML = arg + "°C";
 });
 
 socket.on("STDS/2/Niveau", (arg) => {
   console.log("niveau", arg);
-  document.getElementById('quantite').innerHTML = arg;
+  document.getElementById('quantite').innerHTML = arg + "%";
 
   var barreProgression = document.getElementById('myProgressBar')
   if(barreProgression) {
@@ -36,7 +36,7 @@ socket.on("STDS/2/Niveau", (arg) => {
 
 socket.on("STDS/2/Puissance", (arg) => {
   console.log(arg);
-  document.getElementById('puissance').innerHTML = arg;
+  document.getElementById('puissance').innerHTML = arg + " Watts";
 
   var barreProgression2 = document.getElementById('myProgressBarPuissance')
   barreProgression2.style.width = (arg / 4) * 100 + "%"
@@ -51,17 +51,17 @@ socket.on("STDS/2/Puissance", (arg) => {
   }
 });
 
-socket.on("STDS/2/Diag", (arg) => {
-  console.log(arg);
-  document.getElementById('diag').innerHTML = arg;
-});
-// STDS/2/CO2
-
 socket.on("STDS/2/C02", (arg) => {
   console.log(arg);
-  document.getElementById('CO2').innerHTML = arg;
+  document.getElementById('CO2').innerHTML = arg + "ppm";
   
   var barreProgression3 = document.getElementById('myProgressBarCO2')
   barreProgression3.style.width = (arg / 4) * 100 + "%"
 });
+
+socket.on("STDS/2/Diag", (arg) => {
+  console.log(arg);
+  document.getElementById('diag').innerHTML = arg;
+});
+
 
