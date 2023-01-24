@@ -66,7 +66,7 @@ Rôle de chaque membre de l'équipe :
 | Tests  |     [Cahier de tests](https://github.com/nicolaspoda/SAE-ALT-S3-Dev-22-23-STDS-3B-Equipe-6/blob/main/Documentation/Cahier-tests.adoc)    |
 | Release  |    [Release sprint 1](https://github.com/nicolaspoda/SAE-ALT-S3-Dev-22-23-STDS-3B-Equipe-6/tree/main/Sprint1/codeV2)   | 
 | Documentation  | <ul><li>[Documentation technique](https://github.com/nicolaspoda/SAE-ALT-S3-Dev-22-23-STDS-3B-Equipe-6/blob/main/Documentation/Doc-Tec.adoc)</li><li>[Documentation utilisateur](https://github.com/nicolaspoda/SAE-ALT-S3-Dev-22-23-STDS-3B-Equipe-6/blob/main/Documentation/Doc-User.adoc)</li> |
-| Sprint Board  |     [Sprint Board semaine 3](https://github.com/users/nicolaspoda/projects/1/views/1)    |
+| Sprint Board  |     <ul><li>[Sprint Board semaine 3](https://github.com/users/nicolaspoda/projects/1/views/1)</li></li> <li>[Sprint Board semaine 4](https://github.com/users/nicolaspoda/projects/2/views/1)</li>    |
            
 
 
