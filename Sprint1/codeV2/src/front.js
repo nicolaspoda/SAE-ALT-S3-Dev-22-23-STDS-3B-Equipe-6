@@ -4,9 +4,9 @@ socket.on(encodeURI("STDS/2/Température/T1"), (arg) => {
   console.log(arg);
   document.getElementById('tempFut').innerHTML = arg + "°C";
   var barreProgression3 = document.getElementById('myProgressBarTemperature')
-  var taille = (arg / 30) * 100 + "%"
-  barreProgression3.style.width = taille
-
+  var taille = (arg / 30) * 100 
+  barreProgression3.style.width = taille + "%"
+  
   if(taille > 50 && taille < 75) {
     barreProgression3.style.backgroundColor="orange"
   }
@@ -14,7 +14,7 @@ socket.on(encodeURI("STDS/2/Température/T1"), (arg) => {
     barreProgression3.style.backgroundColor="red"
   }
   if(taille < 50 && taille > 25) {
-    barreProgression3.style.backgroundColor="blue"
+    barreProgression3.style.backgroundColor="red"
   }
   if (taille < 25) {
     barreProgression3.style.backgroundColor="cyan"
@@ -25,8 +25,8 @@ socket.on(encodeURI("STDS/2/Température/T2"), (arg) => {
   console.log(arg);
   document.getElementById('tempAmbiante').innerHTML = arg + "°C";
   var barreProgression4 = document.getElementById('myProgressBarTemperature2')
-  var taille = (arg / 50) * 100 + "%"
-  barreProgression4.style.width = taille
+  var taille = (arg / 50) * 100
+  barreProgression4.style.width = taille + "%"
   if(taille > 50 && taille < 75) {
     barreProgression4.style.backgroundColor="orange"
   }
@@ -42,7 +42,7 @@ socket.on(encodeURI("STDS/2/Température/T2"), (arg) => {
 });
 
 socket.on("STDS/2/Niveau", (arg) => {
-  console.log("niveau", arg);
+  console.log(arg);
   document.getElementById('quantite').innerHTML = arg + "%";
   var barreProgression = document.getElementById('myProgressBar')
   barreProgression.style.width = arg + "%"
