@@ -33,37 +33,66 @@ Les données s'afficheront alors sur votre site.
 
 L'écran d'accueil se présente comme ceci.
 
-image::https://github.com/nicolaspoda/SAE-ALT-S3-Dev-22-23-STDS-3B-Equipe-6/blob/main/Images/accueil-stds.png[Accueil site]
+image::https://github.com/nicolaspoda/SAE-ALT-S3-Dev-22-23-STDS-3B-Equipe-6/blob/main/Images/accueil.png[Accueil site]
+
 
 === Consulter la température
 
 Lorsque vous arrivez sur l'écran d'accueil, vous pouvez consulter la température du fût.
 
-image::https://github.com/nicolaspoda/SAE-ALT-S3-Dev-22-23-STDS-3B-Equipe-6/blob/main/Images/index_temperature.png[temperature]
+image::https://github.com/nicolaspoda/SAE-ALT-S3-Dev-22-23-STDS-3B-Equipe-6/blob/main/Images/temp.png[temperature]
+
+Pour une vision en détail, l'utilisation du bouton "Voir plus" est fortement conseillée, elle permet de voir la température du fût ainsi que la température extérieure au fût.
+
+image::https://github.com/nicolaspoda/SAE-ALT-S3-Dev-22-23-STDS-3B-Equipe-6/blob/main/Images/tempPlus.png[Accueil site]
 
 === Consulter le niveau du fût de bière
 
 Lorsque vous arrivez sur l'écran d'accueil, vous pouvez consulter le niveau du fût.
 
-image::https://github.com/nicolaspoda/SAE-ALT-S3-Dev-22-23-STDS-3B-Equipe-6/blob/main/Images/index_quantiteFut.png[quantite]
+image::https://github.com/nicolaspoda/SAE-ALT-S3-Dev-22-23-STDS-3B-Equipe-6/blob/main/Images/niveau.png[quantite]
+
+Pour une vision en détail, l'utilisation du bouton "Voir plus" est fortement conseillée, elle permet de voir la consommation du fût par rapport à sa capacité de stockage.
+
+image::https://github.com/nicolaspoda/SAE-ALT-S3-Dev-22-23-STDS-3B-Equipe-6/blob/main/Images/niveauPlus.png[Accueil site]
+
 
 === Consulter la puissance
 
 Lorsque vous arrivez sur l'écran d'accueil, vous pouvez consulter la puissance consommée.
 
-image::https://github.com/nicolaspoda/SAE-ALT-S3-Dev-22-23-STDS-3B-Equipe-6/blob/main/Images/puissance_index.png[puissance]
+image::https://github.com/nicolaspoda/SAE-ALT-S3-Dev-22-23-STDS-3B-Equipe-6/blob/main/Images/puissance.png[puissance]
+
+Pour une vision en détail, l'utilisation du bouton "Voir plus" est fortement conseillée, elle permet de voir la puissance du fût en moyenne par jour.
+
+image::https://github.com/nicolaspoda/SAE-ALT-S3-Dev-22-23-STDS-3B-Equipe-6/blob/main/Images/puissancePlus.png[Accueil site]
 
 === Consulter la quantité de CO2
 
-image::https://github.com/nicolaspoda/SAE-ALT-S3-Dev-22-23-STDS-3B-Equipe-6/blob/main/Images/CO2_index.png[co2]
+image::https://github.com/nicolaspoda/SAE-ALT-S3-Dev-22-23-STDS-3B-Equipe-6/blob/main/Images/CO2.png[co2]
 
 Lorsque vous arrivez sur l'écran d'accueil, vous pouvez consulter la quantité de CO2.
 
 === Consulter les alertes liées à une anomalie
 
-Lorsque vous arrivez sur l'écran d'accueil, vous pouvez consulter les alertes liées à une anomalie.
+image::https://github.com/nicolaspoda/SAE-ALT-S3-Dev-22-23-STDS-3B-Equipe-6/blob/main/Images/alerte.png[alerte]
 
-image::https://github.com/nicolaspoda/SAE-ALT-S3-Dev-22-23-STDS-3B-Equipe-6/blob/main/Images/alerte_index.png[alerte]
+
+Lorsque vous arrivez sur l'écran d'accueil, vous pouvez consulter les alertes liées à une anomalie.
+Dès le moment où une alrte est levée, une popup s'affiche et vous avez deux possibilités : 
+
+
+image::https://github.com/nicolaspoda/SAE-ALT-S3-Dev-22-23-STDS-3B-Equipe-6/blob/main/Images/popup.png[menu]
+
+
+-> Appuir sur "Annuler" ferme le popup et vous avez accès à nouveau sur l'interface d'accueil. 
+
+
+-> Appuir sur "Ok" vous redirige vers la notice d'utilisation de la tireuse à bière.
+
+
+image::https://github.com/nicolaspoda/SAE-ALT-S3-Dev-22-23-STDS-3B-Equipe-6/blob/main/Images/notice.png[menu]
+
 
 == Autres pages
 
@@ -99,11 +128,11 @@ En fonction des gammes de maintenance que vous souhaitez consulter, il vous faud
 
 Si vous choisissez "Maintenance préventive", vous arriverez sur cette page :
 
-image::https://github.com/nicolaspoda/SAE-ALT-S3-Dev-22-23-STDS-3B-Equipe-6/blob/main/Images/maitenance_preventive_page.png[preventive]
+image::https://github.com/nicolaspoda/SAE-ALT-S3-Dev-22-23-STDS-3B-Equipe-6/blob/main/Images/Maintenance_preventive.png[preventive]
 
 Si vous choisissez "Maintenance curative", vous arriverez sur cette page :
 
-image::https://github.com/nicolaspoda/SAE-ALT-S3-Dev-22-23-STDS-3B-Equipe-6/blob/main/Images/maintenance_curative_page.png[curative]
+image::https://github.com/nicolaspoda/SAE-ALT-S3-Dev-22-23-STDS-3B-Equipe-6/blob/main/Images/Maintenance_curative.png[curative]
 
 Il ne vous reste plus qu'à choisir la gamme de maintenance que vous souhaitez consulter.
 
