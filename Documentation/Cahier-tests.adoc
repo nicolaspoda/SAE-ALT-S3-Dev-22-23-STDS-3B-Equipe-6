@@ -1,5 +1,5 @@
 |===
-|Nom du test |ID du test |Objectifs | Références | Conditions préalables |Configuration | Étapes de test | Résultat attendu
+|Nom du test |ID du test |Objectifs | Références | Conditions préalables |Configuration | Étapes de test | Résultat attendu | Validation
 
 |Accès à l'historique des données
 |01
@@ -9,6 +9,7 @@
 |Docker
 |Se connecter sur l'application, aller sur la page qui nous permet de voir l'historique des données
 |Historique contenant les informations liées au fût de bière
+|Pas validé
 
 |Alertes de la tireuse
 |02
@@ -18,6 +19,7 @@
 |Docker
 |Se connecter sur l'application, observer la partie "Alerte" de la page d'accueil
 |Message d'alerte lorsqu'il y a une anomalie
+|Validé
 
 |Affichage de la puissance en watt de la tireuse
 |03
@@ -27,6 +29,7 @@
 |Docker
 |Aller sur l'application, observer la partie "Puissance" de la page d'accueil
 |Nombre de watt correspondant à la puissance
+|Validé
 
 |Provenance des erreurs
 |04
@@ -36,6 +39,7 @@
 |Docker
 |Aller sur le site, observer la provenance des erreurs
 |Erreurs affichées
+|Validé
 
 |Consultation des gammes de maintenance
 |05
@@ -45,6 +49,7 @@
 |Aucune configuration
 |Se rendre sur l'application, menu "Maintenance", choisir "Maintenance préventive" ou "Maintenance curative" et choisir une gamme de maintenance à consulter
 |PDF des gammes de maintenance
+|Validé
 
 |Affichage de la température intérieure et de la température extérieure
 |06
@@ -54,6 +59,7 @@
 |Docker
 |Aller sur l'application, cliquer sur "Voir plus" de "Température"
 |Température extérieure et intérieure
+|Validé
 
 |Affichage du pourcentage de bière restant dans la machine
 |07
@@ -63,6 +69,7 @@
 |Docker
 |Aller sur l'application, cliquer sur le bouton "Voir plus" de "Quantité fût"
 |Pourcentage du niveau de bière restant
+|Validé
 
 |Changement des couleurs du site
 |08
@@ -72,6 +79,7 @@
 |Aucune configuration
 |Aller sur l'application, accéder à un menu permettant de changer les couleurs du site
 |Couleurs du site modifiées
+|Pas validé
 
 
 
