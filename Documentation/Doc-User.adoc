@@ -5,6 +5,18 @@
 
 *Ce document utilisateur sera mis à jour lorsqu'il y aura des évolutions au sein de l'application.*
 
+== Rappel du contexte du projet
+
+Le client du projet, M. Boulle, demande l’amélioration d’une tireuse à bière Philips PerfectDraft. Dans une approche IOT/industrie 4.0, il souhaite une machine connectée qui envoie des données de température, de niveau de bière et de puissance électrique à l’utilisateur. Ces données doivent pouvoir être lues sur une application web ou un site web disponible sur téléphone portable, et ensuite sur ordinateur. C'est pourquoi six étudiants en GIM nous ont contacté afin que nous réalisions ce site web. Le but est de récupérer les données collectées et qui sont transmisses grâce à un bus MQTT. Il est également demandé la création de plans et de gammes de maintenance, qui seront accessibles depuis l’application.
+
+Version : V1
+
+Date de début : 16/01/2023
+
+Date de fin : 29/01/2023
+
+Equipe : PICHOU Elvis, PODA Nicolas, RECHER Olivier, SACILOTTO Nicolas
+
 == Afficher les données sur l'application avec les commandes Docker
 
 Tout d'abord, vous devez vous rendre sur Visual Studio Code et ouvrir un terminal.
