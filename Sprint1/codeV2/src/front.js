@@ -4,15 +4,20 @@ socket.on(encodeURI("STDS/2/Température/T1"), (arg) => {
   console.log(arg);
   document.getElementById('tempFut').innerHTML = arg + "°C";
   var barreProgression3 = document.getElementById('myProgressBarTemperature')
-  barreProgression3.style.width = (arg / 120) * 100 + "%"
-  if(arg > 40 && arg < 80) {
+  var taille = (arg / 30) * 100 + "%"
+  barreProgression3.style.width = taille
+
+  if(taille > 50 && taille < 75) {
     barreProgression3.style.backgroundColor="orange"
   }
-  if (arg > 80) {
+  if (taille > 75) {
     barreProgression3.style.backgroundColor="red"
   }
-  if(arg < 40) {
-    barreProgression3.style.backgroundColor="green"
+  if(taille < 50 && taille > 25) {
+    barreProgression3.style.backgroundColor="blue"
+  }
+  if (taille < 25) {
+    barreProgression3.style.backgroundColor="cyan"
   }
   });
 
@@ -20,15 +25,19 @@ socket.on(encodeURI("STDS/2/Température/T2"), (arg) => {
   console.log(arg);
   document.getElementById('tempAmbiante').innerHTML = arg + "°C";
   var barreProgression4 = document.getElementById('myProgressBarTemperature2')
-  barreProgression4.style.width = (arg / 120) * 100 + "%"
-  if(arg > 40 && arg < 80) {
+  var taille = (arg / 50) * 100 + "%"
+  barreProgression4.style.width = taille
+  if(taille > 50 && taille < 75) {
     barreProgression4.style.backgroundColor="orange"
   }
-  if (arg > 80) {
+  if (taille > 75) {
     barreProgression4.style.backgroundColor="red"
   }
-  if(arg < 40) {
-    barreProgression4.style.backgroundColor="green"
+  if(taille < 50 && taille > 25) {
+    barreProgression4.style.backgroundColor="blue"
+  }
+  if (taille < 25) {
+    barreProgression4.style.backgroundColor="cyan"
   }
 });
 
@@ -84,5 +93,3 @@ socket.on("STDS/2/Diag", (arg) => {
   console.log(arg);
   document.getElementById('diag').innerHTML = arg;
 });
-
-

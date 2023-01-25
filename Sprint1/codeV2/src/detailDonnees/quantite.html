@@ -60,7 +60,7 @@
       <div class="card ml-1">
         <div class="card-body">
           <img src="../image/beer.png" class="img-fluid icon float-start align-self-center" alt="temperature">
-          <h5 class="card-title">Bierre restante dans le fût (en Littres)</h5>
+          <h5 class="card-title">Bierre restante dans le fût (en Pourcentages)</h5>
           <canvas id="chartQuant"></canvas>
           <script>
             let ctx = document.getElementById("chartQuant");
@@ -70,7 +70,7 @@
                 'Bierre consommée'
               ],
               datasets: [{
-                label: 'Quantité de bierre (L)',
+                label: 'Quantité de bierre (%)',
                 data: [43, 57],
                 backgroundColor: [
                   'rgb(255, 205, 86)',
