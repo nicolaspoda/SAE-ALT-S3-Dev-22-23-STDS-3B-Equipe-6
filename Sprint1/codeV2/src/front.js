@@ -93,7 +93,7 @@ socket.on("STDS/2/CO2", (arg) => {
 socket.on("STDS/2/Diag", (arg) => {
   console.log(arg);
   document.getElementById('diag').innerHTML = arg;
-  if(arg = "Température élevée de la bière !"){
+  if(arg == "Température élevée de la bière !"){
     const result = confirm("La température de la bière est élevée.\nVoulez-vous consulter la notice de maintenance ?");
     if (result == true){
       location.href="http://localhost:3000/document/STDS_notice_utilisation.pdf"
