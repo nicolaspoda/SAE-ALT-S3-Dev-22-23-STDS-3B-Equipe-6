@@ -1,5 +1,14 @@
 Essais pour Nicolas Sacilotto :
 
+Durant cette SAE, nous avons fait face à plusieurs difficultés, la difficulté majeure reste celle de l’historique des données. Afin de pouvoir construire des graphes quotidients, nous aurions pu utiliser une base de données qui aurait eu pour rôle de stocker les flux entrant de données et ainsi représenter sous forme de graphes les axes étudiés à savoir : 
+-> le niveau 
+-> la puissance 
+-> la température extérieure au fût
+-> la température extérieure au fût
+-> le CO2 émis par la tireuse
+
+
+
 le problème qui s’est présenté devant moi à été celui de relier les données en base timescale récupérées depuis le node red vers la page web, j’ai essayé durant 3 journées une méthode qui consitait à utiliser une librairie js nommée “pg”, or j’avais une erreur sur la page web :
 
 image::https://github.com/nicolaspoda/SAE-ALT-S3-Dev-22-23-STDS-3B-Equipe-6/blob/main/Images/erreur.png[Erreur]
