@@ -10,7 +10,7 @@ Avant tout, assurez-vous d'avoir Docker d'installé et d'ouvert : https://www.do
 * télécharger le fichier release.zip
 
 
-
+Puis
 * Importer le fichier node_modules avec la commande : npm install
 * Enfin lancer le projet avec la commande : docker compose up -d
 
