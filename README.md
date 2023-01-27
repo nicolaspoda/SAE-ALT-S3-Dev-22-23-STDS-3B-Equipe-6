@@ -51,7 +51,7 @@ Rôle de chaque membre de l'équipe :
 
 - Pour les bases de données
 
-  - timescaleDB 
+  - timescaleDB (difficultés rencontrés, voir : lien)
   
  <a name="realisations">
  
