@@ -1,0 +1,432 @@
+[
+    {
+        "id": "f6f2187d.f17ca8",
+        "type": "tab",
+        "label": "Flow 1",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "3cc11d24.ff01a2",
+        "type": "comment",
+        "z": "f6f2187d.f17ca8",
+        "name": "WARNING: please check you have started this container with a volume that is mounted to /data\\n otherwise any flow changes are lost when you redeploy or upgrade the container\\n (e.g. upgrade to a more recent node-red docker image).\\n  If you are using named volumes you can ignore this warning.\\n Double click or see info side panel to learn how to start Node-RED in Docker to save your work",
+        "info": "\nTo start docker with a bind mount volume (-v option), for example:\n\n```\ndocker run -it -p 1880:1880 -v /home/user/node_red_data:/data --name mynodered nodered/node-red\n```\n\nwhere `/home/user/node_red_data` is a directory on your host machine where you want to store your flows.\n\nIf you do not do this then you can experiment and redploy flows, but if you restart or upgrade the container the flows will be disconnected and lost. \n\nThey will still exist in a hidden data volume, which can be recovered using standard docker techniques, but that is much more complex than just starting with a named volume as described above.",
+        "x": 350,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "de54838244a4e654",
+        "type": "mqtt in",
+        "z": "f6f2187d.f17ca8",
+        "name": "Température extérieure",
+        "topic": "STDS/2/#",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "8a4959eff5d9447d",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 180,
+        "y": 300,
+        "wires": [
+            [
+                "1c9ad799c63dcd93"
+            ]
+        ]
+    },
+    {
+        "id": "8bebc69b9ae5d080",
+        "type": "inject",
+        "z": "f6f2187d.f17ca8",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 340,
+        "y": 500,
+        "wires": [
+            [
+                "8594352eadebeb75"
+            ]
+        ]
+    },
+    {
+        "id": "0c65abc9ca13c215",
+        "type": "function",
+        "z": "f6f2187d.f17ca8",
+        "name": "Recup T1",
+        "func": "\nreturn msg;\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 740,
+        "y": 200,
+        "wires": [
+            [
+                "cf6a8f61677ce889"
+            ]
+        ]
+    },
+    {
+        "id": "8594352eadebeb75",
+        "type": "postgresql",
+        "z": "f6f2187d.f17ca8",
+        "name": "CreateTable",
+        "query": "CREATE TABLE donneeSAE4(\n    id SERIAL PRIMARY KEY,\n    type character varying,\n    valeur character varying\n);\nSELECT CREATE_HYPERTABLE('donneeSAE4', 'id', chunk_time_interval => 20)",
+        "postgreSQLConfig": "6cc4c6764c7d86c9",
+        "split": false,
+        "rowsPerMsg": 1,
+        "outputs": 1,
+        "x": 910,
+        "y": 500,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "1c9ad799c63dcd93",
+        "type": "switch",
+        "z": "f6f2187d.f17ca8",
+        "name": "",
+        "property": "topic",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "cont",
+                "v": "T1",
+                "vt": "str"
+            },
+            {
+                "t": "cont",
+                "v": "T2",
+                "vt": "str"
+            },
+            {
+                "t": "cont",
+                "v": "Puissance",
+                "vt": "str"
+            },
+            {
+                "t": "cont",
+                "v": "CO2",
+                "vt": "str"
+            },
+            {
+                "t": "cont",
+                "v": "Niveau",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 5,
+        "x": 430,
+        "y": 260,
+        "wires": [
+            [
+                "0c65abc9ca13c215"
+            ],
+            [
+                "d2aa16f58513a5b4"
+            ],
+            [
+                "90e481a71c209403"
+            ],
+            [
+                "6af6ecb4422b05bc"
+            ],
+            [
+                "78557688764f505a"
+            ]
+        ]
+    },
+    {
+        "id": "d2aa16f58513a5b4",
+        "type": "function",
+        "z": "f6f2187d.f17ca8",
+        "name": "Recup T2",
+        "func": "return msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 740,
+        "y": 240,
+        "wires": [
+            [
+                "1cb407aa811f3c2b"
+            ]
+        ]
+    },
+    {
+        "id": "90e481a71c209403",
+        "type": "function",
+        "z": "f6f2187d.f17ca8",
+        "name": "Recup Puissance",
+        "func": "return msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 770,
+        "y": 280,
+        "wires": [
+            [
+                "4691b7582a0cf092"
+            ]
+        ]
+    },
+    {
+        "id": "6af6ecb4422b05bc",
+        "type": "function",
+        "z": "f6f2187d.f17ca8",
+        "name": "Recup CO2",
+        "func": "return msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 750,
+        "y": 320,
+        "wires": [
+            [
+                "f4cf2a1cfc9cd62a"
+            ]
+        ]
+    },
+    {
+        "id": "78557688764f505a",
+        "type": "function",
+        "z": "f6f2187d.f17ca8",
+        "name": "Recup Niveau",
+        "func": "return msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 760,
+        "y": 360,
+        "wires": [
+            [
+                "594ee2aa455ad2ef"
+            ]
+        ]
+    },
+    {
+        "id": "cf6a8f61677ce889",
+        "type": "postgresql",
+        "z": "f6f2187d.f17ca8",
+        "name": "Insert ",
+        "query": "INSERT INTO donneeSAE4 (type, valeur) VALUES('T1', '{{ msg.payload }}');",
+        "postgreSQLConfig": "6cc4c6764c7d86c9",
+        "split": false,
+        "rowsPerMsg": 1,
+        "outputs": 1,
+        "x": 1010,
+        "y": 200,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "25d0e72eab91f52f",
+        "type": "inject",
+        "z": "f6f2187d.f17ca8",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 340,
+        "y": 580,
+        "wires": [
+            [
+                "ab72f06f07f8e06e"
+            ]
+        ]
+    },
+    {
+        "id": "ab72f06f07f8e06e",
+        "type": "postgresql",
+        "z": "f6f2187d.f17ca8",
+        "name": "",
+        "query": "SELECT * FROM donneeSAE4;",
+        "postgreSQLConfig": "6cc4c6764c7d86c9",
+        "split": false,
+        "rowsPerMsg": 1,
+        "outputs": 1,
+        "x": 590,
+        "y": 580,
+        "wires": [
+            [
+                "09ef022c0a6fabc2"
+            ]
+        ]
+    },
+    {
+        "id": "09ef022c0a6fabc2",
+        "type": "debug",
+        "z": "f6f2187d.f17ca8",
+        "name": "debug 2",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 780,
+        "y": 580,
+        "wires": []
+    },
+    {
+        "id": "1cb407aa811f3c2b",
+        "type": "postgresql",
+        "z": "f6f2187d.f17ca8",
+        "name": "Insert ",
+        "query": "INSERT INTO donneeSAE4 (type, valeur) VALUES('T2', '{{ msg.payload }}');",
+        "postgreSQLConfig": "6cc4c6764c7d86c9",
+        "split": false,
+        "rowsPerMsg": 1,
+        "outputs": 1,
+        "x": 1010,
+        "y": 260,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "4691b7582a0cf092",
+        "type": "postgresql",
+        "z": "f6f2187d.f17ca8",
+        "name": "Insert ",
+        "query": "INSERT INTO donneeSAE4 (type, valeur) VALUES('Puissance', '{{ msg.payload }}');",
+        "postgreSQLConfig": "6cc4c6764c7d86c9",
+        "split": false,
+        "rowsPerMsg": 1,
+        "outputs": 1,
+        "x": 1010,
+        "y": 320,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "f4cf2a1cfc9cd62a",
+        "type": "postgresql",
+        "z": "f6f2187d.f17ca8",
+        "name": "Insert ",
+        "query": "INSERT INTO donneeSAE4 (type, valeur) VALUES('CO2', '{{ msg.payload }}');",
+        "postgreSQLConfig": "6cc4c6764c7d86c9",
+        "split": false,
+        "rowsPerMsg": 1,
+        "outputs": 1,
+        "x": 1010,
+        "y": 380,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "594ee2aa455ad2ef",
+        "type": "postgresql",
+        "z": "f6f2187d.f17ca8",
+        "name": "Insert ",
+        "query": "INSERT INTO donneeSAE4 (type, valeur) VALUES('Niveau', '{{ msg.payload }}');",
+        "postgreSQLConfig": "6cc4c6764c7d86c9",
+        "split": false,
+        "rowsPerMsg": 1,
+        "outputs": 1,
+        "x": 1010,
+        "y": 440,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "8a4959eff5d9447d",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "iot.iut-blagnac.fr",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "6cc4c6764c7d86c9",
+        "type": "postgreSQLConfig",
+        "name": "",
+        "host": "timescaledb",
+        "hostFieldType": "str",
+        "port": "5432",
+        "portFieldType": "num",
+        "database": "postgres",
+        "databaseFieldType": "str",
+        "ssl": "false",
+        "sslFieldType": "bool",
+        "applicationName": "",
+        "applicationNameType": "str",
+        "max": "10",
+        "maxFieldType": "num",
+        "idle": "1000",
+        "idleFieldType": "num",
+        "connectionTimeout": "10000",
+        "connectionTimeoutFieldType": "num",
+        "user": "timescale",
+        "userFieldType": "str",
+        "password": "password",
+        "passwordFieldType": "str"
+    }
+]
