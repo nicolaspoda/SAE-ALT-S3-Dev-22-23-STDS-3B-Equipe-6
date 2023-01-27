@@ -86,7 +86,7 @@ Rôle de chaque membre de l'équipe :
 * à faire pour lundi : lier le back au front-end. étudier la piste des websockets
 
 
-=== Retour sprint 3 EP 
+**Retour sprint 3 EP**
 
 Backlog produit : il manque les finalités dans vos US "en tant que ... je veux ... afin de ...". Attention, regardez bien la vidéo pour la création des US dans Github, elles ne sont pas conformes à la demande (label US, critères d'acceptabilités, tâches liées, priorité) je dois tout retrouver dans Github.
   
