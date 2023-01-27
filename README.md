@@ -51,7 +51,7 @@ Rôle de chaque membre de l'équipe :
 
 - Pour les bases de données
 
-  - timescaleDB (difficultés rencontrés, voir : [lien](https://github.com/nicolaspoda/SAE-ALT-S3-Dev-22-23-STDS-3B-Equipe-6/blob/main/Sprint2/difficultes_rencontrees.adoc))
+  - timescaleDB 
   
  <a name="realisations">
  
@@ -65,11 +65,11 @@ Rôle de chaque membre de l'équipe :
 | Backlogs      | <ul><li>[Backlog produit](https://github.com/nicolaspoda/SAE-ALT-S3-Dev-22-23-STDS-3B-Equipe-6/blob/main/Backlog_produit.pdf)</li><li>[Backlog sprint 1](https://github.com/nicolaspoda/SAE-ALT-S3-Dev-22-23-STDS-3B-Equipe-6/blob/main/Sprint1/Backlogs/BacklogSprint1.pdf)</li>       |
 | Tests  |     [Cahier de tests](https://github.com/nicolaspoda/SAE-ALT-S3-Dev-22-23-STDS-3B-Equipe-6/blob/main/Documentation/Cahier-tests.adoc)    |
 | Release  |    [Release](https://github.com/nicolaspoda/SAE-ALT-S3-Dev-22-23-STDS-3B-Equipe-6/tree/main/rendu_final)   | 
-| Documentation  | <ul><li>[Documentation technique](https://github.com/nicolaspoda/SAE-ALT-S3-Dev-22-23-STDS-3B-Equipe-6/blob/main/Documentation/Doc-Tec.adoc)</li><li>[Documentation utilisateur](https://github.com/nicolaspoda/SAE-ALT-S3-Dev-22-23-STDS-3B-Equipe-6/blob/main/Documentation/Doc-User.adoc)</li> |
-| Sprint Board  |     <ul><li>[Sprint Board semaine 3](https://github.com/users/nicolaspoda/projects/1/views/1)</li></li> <li>[Sprint Board semaine 4](https://github.com/users/nicolaspoda/projects/2/views/1)</li>    |
+| Documentation  | <ul><li>[Documentation technique](https://github.com/nicolaspoda/SAE-ALT-S3-Dev-22-23-STDS-3B-Equipe-6/blob/main/Documentation/Doc-Tec.adoc)</li><li>[Documentation utilisateur](https://github.com/nicolaspoda/SAE-ALT-S3-Dev-22-23-STDS-3B-Equipe-6/blob/main/Documentation/Doc-User.adoc)</li> <li> [Aide au démarrage](https://github.com/nicolaspoda/SAE-ALT-S3-Dev-22-23-STDS-3B-Equipe-6/blob/main/rendu_final/ALIRE_aide_au_demarrage.md) </li> |
+| Sprint Board  |     <ul><li>[Sprint Board semaine 3](https://github.com/users/nicolaspoda/projects/1/views/1)</li></li> <li>[Sprint Board semaine 4](https://github.com/users/nicolaspoda/projects/2/views/1)</li>  |
            
 
-[Aide au démarrage](https://github.com/nicolaspoda/SAE-ALT-S3-Dev-22-23-STDS-3B-Equipe-6/blob/main/rendu_final/ALIRE_aide_au_demarrage.md)
+
 
 <a name="gestion">
 
@@ -98,6 +98,14 @@ Documentations bien mais il manque contexe, version, date, équipe.
 Tests TB , il manque une colonne validation (le test est ok ou non ?)
 
 CR OK ... bon courage !! du coup suite aux difficultés quelles sont les mesures ?
+
+**Retour d'expérience du deuxième sprint**
+
+* [Difficultés liées à timescaleDB](https://github.com/nicolaspoda/SAE-ALT-S3-Dev-22-23-STDS-3B-Equipe-6/blob/main/Sprint2/difficultes_rencontrees.adoc). Cette difficulté n'a pas été résolue et la tâche a été abandonnée
+
+* Difficultés pour représenter les valeurs affichées sur la page d'accueil avec des images. Pour résoudre cette difficulté, des barres de progression ont été utilisées.
+
+
  
 
 
