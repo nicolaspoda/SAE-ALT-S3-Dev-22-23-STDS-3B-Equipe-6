@@ -98,8 +98,8 @@ socket.on("STDS/2/Diag", (arg) => {
     const result = confirm("La température de la bière est élevée.\nVoulez-vous consulter la notice de maintenance ?");
     if (result == true){
       location.href="http://localhost:3000/document/STDS_notice_utilisation.pdf"
-      compteur = compteur + 1
-      localStorage.setItem('compteur', compteur)
     }
+    compteur = compteur + 1
+    localStorage.setItem('compteur', compteur)
   }
 });
