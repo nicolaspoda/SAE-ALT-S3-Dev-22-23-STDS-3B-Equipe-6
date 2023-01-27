@@ -16,4 +16,6 @@ Puis :
 * Vous pourrez ensuite stoper le projet en tapant : docker compose down
 
 
-
+Enfin, vous pouvez accèder au site depuis votre localhost : 
+* Rendez-vous sur : http://localhost:3000/
+* Vous avez également la possibilité d'accèder à la version mobile depuis votre téléphone : ip de votre ordinateur suivi du port :3000 ( Assurez-vous d'être sur le même réseau wifi ) ex: 192.168.0.0:3000
