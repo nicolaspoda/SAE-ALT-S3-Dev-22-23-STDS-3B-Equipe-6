@@ -76,7 +76,7 @@ socket.on("STDS/2/Puissance", (arg) => {
 
 socket.on("STDS/2/CO2", (arg) => {
   console.log(arg);
-  document.getElementById('CO2').innerHTML = arg + "ppm";
+  document.getElementById('CO2').innerHTML = arg + "g";
   var barreProgression5 = document.getElementById('myProgressBarCO2')
   barreProgression5.style.width = (arg / 4) * 100 + "%"
   if(arg > 1.33 && arg < 2.66) {
