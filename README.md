@@ -51,7 +51,7 @@ Rôle de chaque membre de l'équipe :
 
 - Pour les bases de données
 
-  - timescaleDB (difficultés rencontrés, voir : lien)
+  - timescaleDB (difficultés rencontrés, voir : [lien](https://github.com/nicolaspoda/SAE-ALT-S3-Dev-22-23-STDS-3B-Equipe-6/blob/main/Sprint2/difficultes_rencontrees.adoc))
   
  <a name="realisations">
  
