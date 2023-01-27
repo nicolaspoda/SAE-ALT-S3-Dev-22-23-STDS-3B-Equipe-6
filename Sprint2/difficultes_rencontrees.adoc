@@ -40,3 +40,5 @@ image::https://github.com/nicolaspoda/SAE-ALT-S3-Dev-22-23-STDS-3B-Equipe-6/blob
 
 image::https://github.com/nicolaspoda/SAE-ALT-S3-Dev-22-23-STDS-3B-Equipe-6/blob/main/Images/erreur1.png[code Essaie]
 
+
+Nous avons donc pris la décision stratégique de ne pas mettre en place la base de données afin d'assurer la rendu du produit dans les temps en ayant des graphiques fonctionnels hormis l'actualisation des données dû à la base de données non aboutit. En effet nous ne pouvions pas perdre autant d'heure à faire des essaies ou bien se former dans des technologies que nous ne maîtrisions pas afin de réaliser un affichage graphique. Il était plus important de finir les fonctionnalités principales avec une bonne documentation;
