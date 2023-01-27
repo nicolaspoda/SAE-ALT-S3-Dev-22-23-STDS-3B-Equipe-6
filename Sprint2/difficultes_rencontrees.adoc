@@ -1,3 +1,18 @@
+Essais pour Nicolas Sacilotto :
+
+le problème qui s’est présenté devant moi à été celui de relier les données en base timescale récupérées depuis le node red vers la page web, j’ai essayé durant 3 journées une méthode qui consitait à utiliser une librairie js nommée “pg”, or j’avais une erreur sur la page web :
+
+image::https://github.com/nicolaspoda/SAE-ALT-S3-Dev-22-23-STDS-3B-Equipe-6/blob/main/Images/erreur.png[Erreur]
+
+Voici le code défaillant qui ne marchait pas dans le fichier "server.js"
+
+image::https://github.com/nicolaspoda/SAE-ALT-S3-Dev-22-23-STDS-3B-Equipe-6/blob/main/Images/pg1.png[code Essaie]
+
+image::https://github.com/nicolaspoda/SAE-ALT-S3-Dev-22-23-STDS-3B-Equipe-6/blob/main/Images/pg2.png[code Essaie]
+
+Le problème ici est que tout était nouveau pour moi, je n'avais jamais touché au langage JS, j'ai du dans un premier temps me former pour utiliser ce langage puis dans un second temps faire le lien en utilisant le bon outil, c'est-à-dire lire des documentations sur le net pour voir quelle librairie était utilisable pour subvenir à mon problème de liaison entre le back et le front.
+
+
 Essais pour Olivier : 
 
 * J’ai commencé par essayer de lier une page MySQL avec phpmyadmin. Cependant, je me suis rendu compte que cela n’était pas possible étant donné que le site doit être hébergé sur un serveur, ce qui empêcherait la récupération des données en temps réel. Cette piste a donc été écarté.
