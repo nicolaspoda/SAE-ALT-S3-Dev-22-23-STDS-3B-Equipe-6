@@ -57,7 +57,7 @@ Dans les sources du projet, nous retrouvons tout le reste, c'est-à-dire le code
 
 * *Partie de use case réalisée*
 
-Dans le diagramme des use case, un cas d'utilisation nommé "Consulter la température ambiante" a été créé. Il a été relié à l'acteur "Client".
+Dans le diagramme des use case, un cas d'utilisation nommé "Consulter la température du fût de bière" a été créé. Il a été relié à l'acteur "Client".
 
 * *Copies écran principales de la fonctionnalité*
 
