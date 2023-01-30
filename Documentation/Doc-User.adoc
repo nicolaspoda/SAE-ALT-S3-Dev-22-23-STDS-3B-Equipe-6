@@ -17,17 +17,9 @@ Date de fin : 29/01/2023
 
 Equipe : PICHOU Elvis, PODA Nicolas, RECHER Olivier, SACILOTTO Nicolas
 
-== Afficher les données sur l'application avec les commandes Docker
+== Aide au démarrage
 
-Tout d'abord, vous devez vous rendre sur Visual Studio Code et ouvrir un terminal.
-
-Ensuite, vous devez vous placer dans le répertoire dans lequel les fichiers Docker sont répertoriés.
-
-Il vous faudra saisir la commande "docker-compose up -d".
-
-image::https://github.com/nicolaspoda/SAE-ALT-S3-Dev-22-23-STDS-3B-Equipe-6/blob/main/Images/docker_compose_up.png[docker]
-
-Les données s'afficheront alors sur votre site.
+Pour savoir comment démarrer l'application, vous pouvez consulter https://github.com/nicolaspoda/SAE-ALT-S3-Dev-22-23-STDS-3B-Equipe-6/blob/main/rendu_final/ALIRE_aide_au_demarrage.md[l'aide au démarrage].
 
 == Écran d'accueil
 
